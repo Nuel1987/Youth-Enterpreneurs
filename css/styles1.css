@@ -1,0 +1,237 @@
+/* Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f5f5f5;
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+ul {
+    list-style-type: none;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+    text-align: center;
+}
+
+header nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header nav ul li {
+    margin: 0 1rem;
+}
+
+header nav ul li a {
+    color: white;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+
+header nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero Section */
+.mentorship-hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('images/image1.jpg') center/cover no-repeat;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+}
+
+.mentorship-hero h1 {
+    font-size: 2.8rem;
+    margin-bottom: 1rem;
+}
+
+.mentorship-hero p {
+    font-size: 1.2rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Mentor Options Section */
+.mentorship-options {
+    padding: 4rem 2rem;
+    text-align: center;
+    background-color: #fff;
+}
+
+.mentorship-options h2 {
+    font-size: 2.2rem;
+    margin-bottom: 2rem;
+}
+
+.mentor-category {
+    background-color: #f9f9f9;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+    max-width: 800px;
+}
+
+.mentor-category h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: #333;
+}
+
+.mentor-category p {
+    font-size: 1rem;
+    color: #666;
+    margin-bottom: 1rem;
+}
+
+.mentor-category ul {
+    padding: 0;
+}
+
+.mentor-category ul li {
+    margin-bottom: 0.8rem;
+}
+
+.mentor-category ul li a {
+    font-size: 1.1rem;
+    color: #007BFF;
+}
+
+.mentor-category ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Mentor Request Form */
+.mentor-request {
+    background-color: #f0f8ff;
+    padding: 4rem 2rem;
+    text-align: center;
+}
+
+.mentor-request h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.mentor-request p {
+    margin-bottom: 2rem;
+    font-size: 1.1rem;
+    color: #555;
+}
+
+.mentor-request form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.mentor-request form label {
+    text-align: left;
+    font-size: 1.1rem;
+    margin-bottom: 0.5rem;
+}
+
+.mentor-request form input,
+.mentor-request form select,
+.mentor-request form textarea {
+    padding: 0.8rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 1.5rem;
+    width: 100%;
+}
+
+.mentor-request form textarea {
+    resize: vertical;
+}
+
+.mentor-request form button.cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 1rem 2rem;
+    font-size: 1.1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+
+.mentor-request form button.cta-button:hover {
+    background-color: #218838;
+}
+
+/* Footer Styles */
+footer {
+    background-color: #333;
+    color: white;
+    padding: 2rem;
+    text-align: center;
+}
+
+footer p {
+    margin-bottom: 1rem;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 0.5rem;
+}
+
+footer ul li a {
+    color: white;
+    font-size: 1.1rem;
+}
+
+footer ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    header nav ul {
+        flex-direction: column;
+    }
+
+    .mentorship-hero h1 {
+        font-size: 2rem;
+    }
+
+    .mentorship-hero p {
+        font-size: 1rem;
+    }
+
+    .mentor-category {
+        margin: 1rem 0;
+        padding: 1.5rem;
+    }
+
+    .mentor-request form {
+        padding: 1.5rem;
+    }
+}
+

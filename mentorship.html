@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mentorship - Youth Entrepreneurship Hub</title>
+    <link rel="stylesheet" href="css/styles1.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mentorship.html">Mentorship</a></li>
+                <li><a href="funding.html">Funding</a></li>
+                <li><a href="profile.html">Profile</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Mentorship Hero Section -->
+    <section class="mentorship-hero">
+        <h1>Find the Right Mentor</h1>
+        <p>Connect with industry experts to guide you on your entrepreneurial journey.</p>
+    </section>
+
+    <!-- Mentorship Categories Section -->
+    <section class="mentorship-options">
+        <h2>Choose Your Mentor</h2>
+        <div class="mentor-category">
+            <h3>Business Development Mentors</h3>
+            <p>Get help with scaling your business, creating a business plan, and developing growth strategies.</p>
+            <ul>
+                <li><a href="#">John Doe - 10+ years in Business Consulting</a></li>
+                <li><a href="#">Jane Smith - Expert in Business Development for Startups</a></li>
+                <li><a href="#">Emily Turner - Founder of Tech-Based Startups</a></li>
+            </ul>
+        </div>
+
+        <div class="mentor-category">
+            <h3>Marketing & Branding Mentors</h3>
+            <p>Learn how to build a brand, increase your market presence, and develop marketing strategies.</p>
+            <ul>
+                <li><a href="#">David Lee - Digital Marketing Specialist</a></li>
+                <li><a href="#">Samantha White - Brand Strategy Consultant</a></li>
+                <li><a href="#">Michael Green - Social Media Expert</a></li>
+            </ul>
+        </div>
+
+        <div class="mentor-category">
+            <h3>Finance & Investment Mentors</h3>
+            <p>Get financial advice and learn how to attract investment for your business.</p>
+            <ul>
+                <li><a href="#">Sophia Brown - Financial Advisor for Startups</a></li>
+                <li><a href="#">Chris Evans - Venture Capital Expert</a></li>
+                <li><a href="#">Alex Martinez - Small Business Loan Consultant</a></li>
+            </ul>
+        </div>
+
+        <div class="mentor-category">
+            <h3>Tech & Product Development Mentors</h3>
+            <p>For entrepreneurs in the tech industry, find the right mentor to guide you on product development.</p>
+            <ul>
+                <li><a href="#">Robert Taylor - CTO & Product Manager</a></li>
+                <li><a href="#">Jessica Allen - Software Development Consultant</a></li>
+                <li><a href="#">Benjamin Scott - UX/UI Designer for Startups</a></li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Mentor Request Form -->
+    <section class="mentor-request">
+        <h2>Request a Mentor</h2>
+        <p>Fill out the form below to request a session with one of our mentors.</p>
+        <form action="/request-mentor" method="POST">
+            <label for="mentor">Select Mentor:</label>
+            <select id="mentor" name="mentor" required>
+                <option value="John Doe">John Doe - Business Development</option>
+                <option value="Jane Smith">Jane Smith - Business Development</option>
+                <option value="David Lee">David Lee - Marketing</option>
+                <option value="Samantha White">Samantha White - Marketing</option>
+                <option value="Sophia Brown">Sophia Brown - Finance</option>
+                <option value="Chris Evans">Chris Evans - Finance</option>
+                <option value="Robert Taylor">Robert Taylor - Tech & Product</option>
+            </select>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="5" placeholder="Tell us about your business and the guidance you need..." required></textarea>
+
+            <button type="submit" class="cta-button">Request Mentor</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Youth Entrepreneurship Hub. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

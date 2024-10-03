@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Funding Opportunities - Youth Entrepreneurship Hub</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Header Section -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="mentorship.html">Mentorship</a></li>
+                <li><a href="#funding">Apply for Funding</a></li>
+                <li><a href="profiles.html">Profiles</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Introduction Section -->
+    <section class="hero funding-hero">
+        <h1>Funding Opportunities</h1>
+        <p>Find the right funding to grow your startup or business idea.</p>
+    </section>
+
+    <!-- Funding Programs Section -->
+    <section class="funding-programs">
+        <h2>Available Funding Programs</h2>
+        <div class="funding-item">
+            <h3>Startup Grants</h3>
+            <p>Grants available for early-stage startups with innovative business ideas. Apply for non-repayable funding to boost your growth.</p>
+        </div>
+        <div class="funding-item">
+            <h3>Business Loans</h3>
+            <p>Low-interest loans for small businesses and startups to support their operational and growth needs.</p>
+        </div>
+        <div class="funding-item">
+            <h3>Investor Matchmaking</h3>
+            <p>Connect with angel investors and venture capitalists to secure equity investment for your business.</p>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials">
+        <h2>Success Stories</h2>
+        <div class="testimonial-item">
+            <p>"Thanks to the startup grant, I was able to launch my dream business! The process was smooth and support was amazing." - <strong>Papa W.</strong></p>
+        </div>
+        <div class="testimonial-item">
+            <p>"The business loan helped me scale my operations. I can't thank the Youth Entrepreneurship Hub enough!" - <strong>Kwaku P.</strong></p>
+        </div>
+        <div class="testimonial-item">
+            <p>"Securing funding through the investor matchmaking program was a game changer for my company!" - <strong>Sophia R.</strong></p>
+        </div>
+    </section>
+
+    <!-- Funding Application Form -->
+    <section id="funding" class="apply-funding">
+        <h2>Apply for Funding</h2>
+        <form action="submit_funding_application.php" method="POST">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="business">Your Business/Startup:</label>
+            <input type="text" id="business" name="business" required>
+
+            <label for="funding_type">Type of Funding:</label>
+            <select id="funding_type" name="funding_type" required>
+                <option value="startup_grant">Startup Grant</option>
+                <option value="business_loan">Business Loan</option>
+                <option value="investor_matchmaking">Investor Matchmaking</option>
+            </select>
+
+            <label for="message">Why do you need funding?</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <button type="submit" class="cta-button">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <p>© 2024 Youth Entrepreneurship Hub. All rights reserved.</p>
+        <ul class="social-links">
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Twitter</a></li>
+            <li><a href="#">LinkedIn</a></li>
+        </ul>
+    </footer>
+</body>
+</html>

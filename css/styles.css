@@ -1,0 +1,394 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #2403fc;
+    padding: 1rem;
+}
+
+nav ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+   
+    background-color: #a5a4a4;
+    text-align: center;
+    padding: 5rem;
+}
+
+.hero h1 {
+    font-size: 3rem;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.services {
+    display: flex;
+    justify-content: space-around;
+    padding: 2rem;
+    background-color: #eef;
+}
+
+.service-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    text-align: center;
+    width: 30%;
+}
+
+.success-stories {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.story-item {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 5px;
+    margin: 1rem 0;
+}
+
+/* Hero section for the Mentorship Page */
+.mentorship-hero {
+    background-color: #eef;
+    text-align: center;
+    padding: 3rem;
+}
+
+.mentors {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.mentors h2 {
+    margin-bottom: 2rem;
+}
+
+.mentor-item {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: 30%;
+    margin: 0 1rem;
+}
+
+.mentor-contact {
+    background-color: #28a745;
+    color: white;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 1rem;
+    display: inline-block;
+}
+
+.apply-mentorship {
+    padding: 2rem;
+    background-color: #eef;
+    text-align: center;
+}
+
+.apply-mentorship form {
+    display: inline-block;
+    text-align: left;
+}
+
+.apply-mentorship label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.apply-mentorship input, 
+.apply-mentorship textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.apply-mentorship button {
+    background-color: #28a745;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Resources Hero Section */
+.resources-hero {
+    background-color: #f0f8ff;
+    padding: 4rem;
+    text-align: center;
+}
+
+.resources-hero h1 {
+    font-size: 2.5rem;
+}
+
+.resources-hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Resource Categories */
+.resources-list {
+    padding: 2rem;
+    text-align: center;
+}
+
+.resource-category {
+    background-color: #f9f9f9;
+    margin: 1rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+    max-width: 800px;
+}
+
+.resource-category h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.resource-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-category ul li {
+    margin: 0.5rem 0;
+}
+
+.resource-category ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.resource-category ul li a:hover {
+    text-decoration: underline;
+}
+
+
+
+/* Hero section for the Funding Page */
+.funding-hero {
+    background-image: url('//images/image1.jpg');
+    background-color: #eef;
+    text-align: center;
+    padding: 3rem;
+}
+
+.funding-programs {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.funding-programs h2 {
+    margin-bottom: 2rem;
+}
+
+.funding-item {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    display: inline-block;
+    width: 30%;
+    margin: 0 1rem;
+}
+
+.apply-funding {
+    padding: 2rem;
+    background-color: #eef;
+    text-align: center;
+}
+
+.apply-funding form {
+    display: inline-block;
+    text-align: left;
+}
+
+.apply-funding label {
+    display: block;
+    margin-bottom: 0.5rem;
+}
+
+.apply-funding input, 
+.apply-funding select, 
+.apply-funding textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin-bottom: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.apply-funding button {
+    background-color: #28a745;
+    color: white;
+    padding: 1rem 2rem;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* Testimonials Section */
+.testimonials {
+    padding: 2rem;
+    background-color: #f9f9f9;
+    text-align: center;
+}
+
+.testimonials h2 {
+    margin-bottom: 2rem;
+}
+
+.testimonial-item {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    width: 80%;
+    margin: 0 auto 1rem auto;
+    font-style: italic;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Profile Hero Section */
+.profile-hero {
+    background-color: #eef;
+    text-align: center;
+    padding: 3rem;
+}
+
+.profile-info {
+    padding: 2rem;
+    text-align: center;
+}
+
+.profile-info form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-info form label,
+.profile-info form input,
+.profile-info form textarea,
+.profile-info form select {
+    width: 100%;
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+}
+
+.cta-button {
+    background-color: #28a745;
+    color: white;
+    padding: 1rem 2rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Resources Hero Section */
+.resources-hero {
+    background-color: #f0f8ff;
+    padding: 4rem;
+    text-align: center;
+}
+
+.resources-hero h1 {
+    font-size: 2.5rem;
+}
+
+.resources-hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Resource Categories */
+.resources-list {
+    padding: 2rem;
+    text-align: center;
+}
+
+.resource-category {
+    background-color: #f9f9f9;
+    margin: 1rem auto;
+    padding: 2rem;
+    border-radius: 5px;
+    max-width: 800px;
+}
+
+.resource-category h3 {
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+}
+
+.resource-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.resource-category ul li {
+    margin: 0.5rem 0;
+}
+
+.resource-category ul li a {
+    text-decoration: none;
+    color: #007BFF;
+}
+
+.resource-category ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    margin: 0 1rem;
+}
